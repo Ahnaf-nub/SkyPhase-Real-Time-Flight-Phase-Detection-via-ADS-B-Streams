@@ -1,6 +1,5 @@
 from fastapi import FastAPI, Request
 from fastapi.responses import HTMLResponse, FileResponse, JSONResponse
-from fastapi.staticfiles import StaticFiles
 import uvicorn
 import random
 import requests
