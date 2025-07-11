@@ -74,5 +74,5 @@ When live mode is turned off (default), the app switches to simulated aircraft d
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/flight-phase-dashboard.git
-cd flight-phase-dashboard
+git clone https://github.com/Ahnaf-nub/SkyPhase-Real-Time-Flight-Phase-Detection-via-ADS-B-Streams.git
+cd SkyPhase-Real-Time-Flight-Phase-Detection-via-ADS-B-Streams
