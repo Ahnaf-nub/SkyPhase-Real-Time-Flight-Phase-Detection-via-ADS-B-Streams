@@ -1,6 +1,7 @@
 # Flight Phase Dashboard
 
 A real-time web dashboard that classifies and visualizes **aircraft flight phases** (Climb, Cruise, Descent) using live ADS-B data or simulated dummy data. Built using **FastAPI**, **scikit-learn**, **Leaflet.js**, and **CSS**, it features a global map, live updates, ML-based classification, and user location search with geocoding.
+*Demo Link*: https://youtu.be/0X9Ei9IrGLk
 
 ---
 
@@ -64,7 +65,6 @@ When live mode is turned off (default), the app switches to simulated aircraft d
 ├── dashboard.html            # Frontend dashboard (Leaflet + Tailwind UI)
 ├── model.pkl                 # Trained ML model for phase classification
 ├── scaler.pkl                # StandardScaler used during training
-├── README.md                 # This file
 ├── test.py                   # Code for testing.
 ├── aircraft-data_nov_dec.csv # Data used for training. source: [Kaggle](https://www.kaggle.com/datasets/brianwarner/aircraft-data-from-nov-2022-through-dec-31-2022)
 ```
@@ -76,3 +76,5 @@ When live mode is turned off (default), the app switches to simulated aircraft d
 ```bash
 git clone https://github.com/Ahnaf-nub/SkyPhase-Real-Time-Flight-Phase-Detection-via-ADS-B-Streams.git
 cd SkyPhase-Real-Time-Flight-Phase-Detection-via-ADS-B-Streams
+pip3 install -r requirements.txt
+python3 app.py
