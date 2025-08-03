@@ -1,7 +1,7 @@
 # Flight Phase Dashboard
 
 A real-time web dashboard that classifies and visualizes **aircraft flight phases** (Climb, Cruise, Descent) using live ADS-B data or simulated dummy data. Built using **FastAPI**, **scikit-learn**, **Leaflet.js**, and **CSS**, it features a global map, live updates, ML-based classification, and user location search with geocoding.
-*Demo Link*: https://youtu.be/0X9Ei9IrGLk
+*Demo Link*: https://ahnaf.hackclub.app/
 
 ---
 
